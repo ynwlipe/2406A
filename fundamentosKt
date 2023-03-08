@@ -3,3 +3,47 @@ fun main() {
     println("tartaruga:)")
 }
 //----------------------------------------------------------------------------------------------------------//
+
+
+fun main() {
+    println("Oie") //exibir mensagemns no console 
+    
+// = comentario - comentario de uma linha
+
+/*
+*ele
+*é 
+*um
+*comentario
+*de 
+*mais
+*de
+*uma
+*linha
+*
+*/ 
+//variaveis - elas armazenam valores
+//variaveis mutaveis - seu valor pode ser alterado ----------------- var = variariavel
+//variaveis não mutaveis - seu valor NÃO pode ser alterado --------- val = valor
+//
+// Tipos de variaveis 
+//
+// Bolean - verdadeiro ou falso Ex: True e Fall, 0 ou 1
+// String - Caracteres no geral ... entre ASPAS DUPLAs - sem limnites de caracteres ex.: "joão Geromel Cadeira's"
+// Char - apenas 1 digito de caractere... entre ASPAS SIMPLES  ex.: 'J'
+// Int - numeros inteiros ex.: 100
+// Double - numeros decimais, com um limite de 7 de até digitos após a virgula - 
+// arredonda o numero Ex.: 22.5
+// Float - numeros decimaias, com um limite de até 14 digitos após a virgula - 
+// arredonda o numero Ex.: 22.5f
+//Long - numeros longos com muitos digitos inteiros, ou decimal Ex.: 80000000000000000000000000
+//
+// Estrutura de uma variavel: 
+// var nome = valor 
+//       ou  
+// varr nome: Tipo
+//
+var professor = "Rodinei"
+var professor: String
+}
+//------------------------------------------------------------------------------------------------------------------------------------------------
