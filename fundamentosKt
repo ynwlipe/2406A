@@ -47,3 +47,51 @@ var professor = "Rodinei"
 var professor: String
 }
 //------------------------------------------------------------------------------------------------------------------------------------------------
+fun main() {
+     // Concatenação
+     // 
+     // 
+     /*
+     var tartaruga = "Michael Havckson"
+    
+    println("O nome da tartaruga do Kilyan Mbappé é $tartaruga")
+    println("O nome da tartaruga do Kilyan Mbappé é " + tartaruga) 
+    
+    var leclerc = 2 
+    var alonso = 1
+    
+    println(" A posição do Lek Lek + a posição do Alonso são ${(leclerc + alonso)}")
+    println(" A posição do Lek Lek + a posição do Alonso são " + (leclerc + alonso))
+    
+    
+    var nome = "Eduardo" 
+    var idade = 19 
+    var cidade = "São Paulo" 
+    
+    println("O meu nome é $nome, eu tenho $idade anos e moro em $cidade")
+   
+    // 
+    // 
+    
+    
+}
+//-------------------------------------------------------------------------------------------
+EXERCICIOS:
+ {
+   println("Felipe: opa, boa tarde!!")
+   println("Felipe: tudo bem?")
+   println("Matheus: opa boa tarde, tudo sim")
+   println("Matheus: com quem falo")
+   println("Felipe: então me chamo Felipe, e vi teu filho jogar e me interessei muito com ele na peneira!!")
+   println("Felipe: sou olheiro do São Paulo, e estou entrando em contato para saber se seu filho pode ir nos fazer uma visita no ct de cotia")
+   println("Matheus: fico muito feliz, pois ultimamente ele tem se esforçado de mais")
+   println("Matheus: da minha parte tambem, tenho faltado ao trabalho para o levar em testes")
+   println("Matheus: ja fomos em mais de 7 testes esse ano e ele foi reprovado, mesmo sendo o melhor em campo")
+   println("Matheus: em questão da visita podemos ir sim, só me fale quando, o endereço, e se precisa levar algo. ")
+   println("Felipe: ok, traga rg do mesmo, do pai, mãe ou responsavel, comprovante de aptidão fisica")
+   println("Felipe: espero vocês as 8h aqui no Ct em cotia")
+   println("Matheus: ok, obrigado pelo interesse, nem sei como contar para ele... ")
+   println("Felipe: por nada sr. Matheus, seu menino é de ouro, espero voçês")
+   println("Felipe: abraço, uma otima tarde!")
+   println("Matheus: obrigado mais uma vez pela a oportunidade, tenha um otimo dia!!!")
+}
