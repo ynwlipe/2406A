@@ -95,3 +95,38 @@ EXERCICIOS:
    println("Felipe: abraço, uma otima tarde!")
    println("Matheus: obrigado mais uma vez pela a oportunidade, tenha um otimo dia!!!")
 }
+//-----------------------------------------------------------------------------------------------------------------
+
+fun main() {
+    //Operadores Matematicos
+    // + = adição
+    // - = Subtração 
+    // / = divisão 
+    // * = multiplicação
+    // % = módulo
+    // 
+    var halls = 7
+    var freegells = 6
+        
+   // EXERCICIOS - faça uma calculadora contendo todos os operadores matematicos 
+   //
+   
+   var n2 = 0
+   println("  ______________BEM VINDO A _____________||")
+   println("||********** MINHA CALCULADORA **********||")
+   println("||********** halls + freegells **********||")
+   println("||********** halls - freegells **********||")
+   println("||********** halls / freegells **********||")
+   println("||********** halls * freegells **********||")
+   println("||********** halls % freegells **********||")
+   println("||_______________________________________||")
+   println("||********** halls + freegells = 13 *****||")
+   println("||********** halls - freegells = 1 ******||")
+   println("||********** halls / freegells = 1 ******||")
+   println("||********** halls * freegells = 42 *****||")
+   println("||********** halls % freegells = 0 ******||")
+   println("||_______________________________________||")
+
+}  
+
+//-----------------------------------------------------------------------------------------------------
