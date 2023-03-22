@@ -122,11 +122,80 @@ fun main() {
    println("||_______________________________________||")
    println("||********** halls + freegells = 13 *****||")
    println("||********** halls - freegells = 1 ******||")
-   println("||********** halls / freegells = 1 ******||")
-   println("||********** halls * freegells = 42 *****||")
-   println("||********** halls % freegells = 0 ******||")
+   println("||********** halls / freegells = 2 ******||")
+   println("||********** halls * freegells = 21 *****||")
+   println("||********** halls % freegells = 1 ******||")
    println("||_______________________________________||")
 
 }  
 
 //-----------------------------------------------------------------------------------------------------
+
+fun main() {
+   // operadores relacionais 
+   // 
+   // == -> igual a..
+   // != -> diferente de...
+   // ! negando falor...
+   // >  -> maior que...
+   // <  -> menor que...
+   // >= -> maior ou igual a...
+   // <= -> menor ou igual a...
+   //   
+   //   
+   // ++ -> adiciona 1 a um valor
+   // -- -> subtrai 1 de um valor
+   // += -> adiciona um determinado valor a um valor 
+   // -= -> subtrai um determinado valor de um valor 
+   /* 
+   var claudetty = 50 
+   var josias = 30 
+   var berennice = 90
+   var bernnaddetthy = 80 
+   
+   println(claudetty)
+   claudetty++
+   println(claudetty)
+   println("")
+   println(josias)
+   josias--
+   println(josias) 
+   println("")
+   println(berennice)
+   berennice += claudetty
+   println(berennice)
+   println("")
+   println(bernnaddetty)
+   bernnaddetty -= josias
+   println(bernnaddetty)
+   */ 
+    
+   
+   // condições if..else
+   // 
+   // estrutura:
+   // 
+   // if..eslse simples
+   // estrutura:
+   // if(condição){ 
+   // ação
+   // }else{
+   // ação
+   // }
+   /*
+   var interruptor = false 
+    
+   if(interruptor == true){
+      println("luz acesa :)") 
+   }else{ 
+       println("luz apagada")
+   }
+   */
+   var fome = true 
+   
+   if(fome){
+      println("alimente-se!") 
+   }else{  
+      println("alimentou-se")
+   }
+  //-----------------------------------------------------------------------------------------------------------------------------------------------
