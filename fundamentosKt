@@ -199,3 +199,48 @@ fun main() {
       println("alimentou-se")
    }
   //-----------------------------------------------------------------------------------------------------------------------------------------------
+
+  fun main() {
+    var cr7 = 832 
+    var messi = 800
+ if(cr7 > messi){
+    println (cr7)
+}else if(cr7 < messi){
+    println (messi)
+}else{
+    println("cr7 e messi são iguais")
+ }   
+}
+
+EXER 2
+fun main() {
+    /*var kroos = 20
+    if(kroos > 0){
+       println("numero positivo")
+}else if(kroos < 0){
+       println("numero negativo")         
+}else{
+       println("numero igual a zero")
+}
+*/
+//--------------------------------------------------------------------------------------------------------------------------------------
+
+// operadores logicos  
+// && -> e -> se todas as condições foram verdadeiras, o resultado será verdadeira 
+// || -> ou -> se pelo menos uma condição for verdadeira, o resultado será verdadeiro
+//
+// tabela Verdade
+//
+// &&
+// VVv -> v
+// vvf -> f
+// fff -> f
+// fVF -> f
+// FVv -> f
+// vfv -> f
+//
+// ||
+// VV -> v
+// VF -> v
+// FV -> f
+// FF -> F
