@@ -244,3 +244,61 @@ fun main() {
 // VF -> v
 // FV -> f
 // FF -> F
+//----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+var coracoes = 10
+	var vidas = 5
+    
+    if (coracoes == 0 && vidas <= 0)
+    {
+        println("Foi de vasco!")
+        vidas--
+    } else {
+        println("Continue...")
+    }
+    if (vidas <= 0)
+    {
+        println("Acabaram suas vidas!")
+    } else {
+        println("Continue...")
+    }
+}
+// ----------------------------------------------
+
+   // when - quando 
+    // 
+    //comparação de um valor for igual a um determinado valor, uma determinada ação será executada 
+    //	
+    // ESTRUTURA DO WHEN
+    // 
+    //when(auxiliar){
+    // valor -> {ação}
+    // valor -> {ação}
+    // valor -> {ação}
+    // valor -> {ação}
+    // valor -> {ação}
+    // else -> {ação}
+    // }
+    // será usado geralmente quando durante o programa o valor da variável 
+    // não for estatico, ou seja, ele estiver mudando 
+    
+    
+    
+    var mes = 5
+
+    when(mes){
+         1 -> {println("Lisboa")}
+         2 -> {println("Nova York")} 
+         3 -> {println(" Rio de Janeiro")}
+         4 -> {println("São Paulo")}
+         5 -> {println("Seol")}
+         6 -> {println("Berllin")}
+         7 -> {println("Keylandia")}
+         8 -> {println("Millwaulke")}
+         9 -> {println("Madrid")}
+         10 -> {println("Barcelona")}
+         11 -> {println("Elmore")}
+         12 -> {println("Toronto")}
+         else -> {println("acordou")}
+    }
+}
