@@ -302,3 +302,17 @@ var coracoes = 10
          else -> {println("acordou")}
     }
 }
+//------------------------------------------------------------------------------------------------------------------------------------------------------------
+    var diaSemana = "domindo"
+    when(diaSemana){
+         "segunda" -> {println("segunda é dia útil")}
+         "terça" -> {println("terça é dia útil")}
+         "quarta" -> {println("quarta é dia útil")}
+         "quinta" -> {println("quinta é dia útil")}
+         "sexta" -> {println("sexta é dia útil")}
+         
+         else -> {println("final de semana, descance")}
+        
+    }
+
+}
