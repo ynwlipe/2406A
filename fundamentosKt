@@ -316,3 +316,48 @@ var coracoes = 10
     }
 
 }
+//--------------------------------------------------------------------------------------------------------------------------------------------
+
+fun main() {
+ var bateria = 100
+ while(bateria >= 0){
+      println("$bateria%")
+ when(bateria){    
+      15 -> {println("aparelho descarregando, conecte no carregador!")} 
+      0 -> {println("aparelho desligando!")}
+    }
+  bateria-- 
+}
+
+
+/*
+//whilwe -> ENQUANTO uma determinada condição for verdadeira, outra ação sera executada
+//
+//do..while
+//uma determinação ação será executada, Equanto uma determinada condição for verdadeira 
+
+//Estrutura
+//
+//do{
+//ação 
+//}while(condição)
+
+var contador = 0
+    
+  do{
+      println(contador++)
+  }while(contador > 10)
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
+fun main(){
+    //for - para...  
+  //para cada item em um intervalo ou colecttion, uma determinada ação será executada
+  //estrutura:
+  //
+  //for(vAuxilliar in interválo colection){
+  //}
+  //
+  var resultado
+  for(conta in 0..12){
+      
+      
+      
