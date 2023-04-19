@@ -366,3 +366,28 @@ fun main(){
 tabuada
 //--------------------------------------------------------------------------------------------------  
       
+fun main() {
+    
+  
+ //collections
+ //
+ // intervalos, listas, arrays, vetores etc...
+ //  
+ // tipod de listas
+ //    
+ var list1 = listOf("tartaruga" , 0, 0.1, true )    
+  
+  println(list1) // exibir a lista
+  println(list1.size) // retorna o tamanho da lista 
+  println(list1.lastIndex) //retornar ao ultimo index
+  println(list1[2]) // exibir o valor de um determinado index
+  println(list1.contains("tartaruga")) // compara se existe um determinado valor dentro da lista 
+  println(list1.indexOf(0)) // indica o index de um determinado valor
+  println(list1.first()) // o valor primeiro do index 
+  println(list1.last()) // o valor do ultimo index
+  println(list1.isEmpty()) // compara se a lista esta vazia 
+  
+  //<tags>
+  var list2 = listOf<String>("Lebron James", "Stephan curry","michael Jordan")
+  
+}
