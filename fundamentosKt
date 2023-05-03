@@ -391,3 +391,25 @@ fun main() {
   var list2 = listOf<String>("Lebron James", "Stephan curry","michael Jordan")
   
 }
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+fun main() {
+ 
+    var pessoa1 = pessoa()
+    
+
+    pessoa1.nome = "Felipe Gomes Pistori" 
+    println(pessoa1.nome + ", "+pessoa1.idade+", "+pessoa1.peso+", "+pessoa1.altura+", "+pessoa1.profissao+", "+pessoa1.nacionalidade)
+       
+}
+
+class pessoa {
+    
+    var nome = "Felipe Gomes Pistori"
+    var idade = 15
+    var altura = 1.72
+    var peso = 64.20 // valor inicial 
+    var profissao = "vagabundo"
+    var nacionalidade = "brasilensse /São paulino"
+    
+}
