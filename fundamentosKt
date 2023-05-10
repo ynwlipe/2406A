@@ -413,3 +413,58 @@ class pessoa {
     var nacionalidade = "brasilensse /São paulino"
     
 }
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+fun main(){
+    
+    var animal1 = Animal ("macaco", "prego", 10, "banana", "florestas") 
+    var animal2 = Animal ("cobra", "coral", 15, "animais", "florestas") 
+    var animal3 = Animal ("cobra", "piton", 14, "animais", "florestas") 
+    var animal4 = Animal ("cobra", "sucuri", 12, "animais", "florestas") 
+    var animal5 = Animal ("cobra", "corn snake", 12, "animais", "florestas") 
+    var animal6 = Animal ("cobra", "cobra-real", 4, "animais", "florestas") 
+    var animal7 = Animal ("macaco", "mico-leao", 1, "banana", "florestas") 
+    var animal8 = Animal ("urso", "polar", 8, "animais, plantas, etc...", "florestas") 
+    var animal9 = Animal ("urso", "marrom", 9, "animais, plantas, etc...", "florestas") 
+    var animal10 = Animal ("urso", "panda", 3, "animais, plantas, etc...", "florestas") 
+    var animal11 = Animal ("urso", "negro", 16, "animais, plantas, etc...", "florestas") 
+    var animal12 = Animal ("baleia", "azul", 14, "peixes", "mares") 
+    var animal13 = Animal ("baleia", "cachalote", 14, "peixes", "mares") 
+    var animal14 = Animal ("golfinho", "orca", 18, "peixes", "mares") 
+    var animal15 = Animal ("baleia", "jubarte", 16, "peixes", "mares") 
+    var animal16 = Animal ("leao", "felino", 12, "animais, plantas, etc...", "florestas") 
+    var animal17 = Animal ("tigre", "felino", 11, "animais, plantas, etc...", "florestas") 
+    var animal18 = Animal ("leopardo", "felino", 7, "animais, plantas, etc...", "florestas") 
+    var animal19 = Animal ("pantera-negra", "felino", 9, "animais, plantas, etc...", "florestas") 
+    var animal20 = Animal ("guepardo", "felino", 10, "animais, plantas, etc...", "florestas") 
+
+    
+ println(" especie: " + animal1.especie +  ", raca: " + animal1.raca + ", idade: " + animal1.idade + ", oque come: " + animal1.dieta + ", onde vive: " +  animal1.habitat  )   
+ println(" especie: " + animal2.especie +  ", raca: " + animal2.raca + ", idade: " + animal2.idade + ", oque come: " + animal2.dieta + ", onde vive: " +  animal2.habitat  )
+ println(" especie: " + animal3.especie +  ", raca: " + animal3.raca + ", idade: " + animal3.idade + ", oque come: " + animal3.dieta + ", onde vive: " +  animal3.habitat  )   
+ println(" especie: " + animal4.especie +  ", raca: " + animal4.raca + ", idade: " + animal4.idade + ", oque come: " + animal4.dieta + ", onde vive: " +  animal4.habitat  ) 
+ println(" especie: " + animal5.especie +  ", raca: " + animal5.raca + ", idade: " + animal5.idade + ", oque come: " + animal5.dieta + ", onde vive: " +  animal5.habitat  )
+ println(" especie: " + animal6.especie +  ", raca: " + animal6.raca + ", idade: " + animal6.idade + ", oque come: " + animal7.dieta + ", onde vive: " +  animal7.habitat  )
+ println(" especie: " + animal8.especie +  ", raca: " + animal8.raca + ", idade: " + animal8.idade + ", oque come: " + animal8.dieta + ", onde vive: " +  animal8.habitat  )    
+ println(" especie: " + animal9.especie +  ", raca: " + animal9.raca + ", idade: " + animal9.idade + ", oque come: " + animal9.dieta + ", onde vive: " +  animal9.habitat  )  
+ println(" especie: " + animal10.especie +  ", raca: " + animal10.raca + ", idade: " + animal10.idade + ", oque come: " + animal10.dieta + ", onde vive: " +  animal10.habitat  )    
+ println(" especie: " + animal11.especie +  ", raca: " + animal11.raca + ", idade: " + animal11.idade + ", oque come: " + animal11.dieta + ", onde vive: " +  animal11.habitat  ) 
+ println(" especie: " + animal12.especie +  ", raca: " + animal12.raca + ", idade: " + animal12.idade + ", oque come: " + animal12.dieta + ", onde vive: " +  animal12.habitat  ) 
+ println(" especie: " + animal13.especie +  ", raca: " + animal13.raca + ", idade: " + animal13.idade + ", oque come: " + animal13.dieta + ", onde vive: " +  animal13.habitat  ) 
+ println(" especie: " + animal14.especie +  ", raca: " + animal14.raca + ", idade: " + animal14.idade + ", oque come: " + animal14.dieta + ", onde vive: " +  animal14.habitat  )  
+ println(" especie: " + animal15.especie +  ", raca: " + animal15.raca + ", idade: " + animal15.idade + ", oque come: " + animal15.dieta + ", onde vive: " +  animal15.habitat  ) 
+ println(" especie: " + animal16.especie +  ", raca: " + animal16.raca + ", idade: " + animal16.idade + ", oque come: " + animal16.dieta + ", onde vive: " +  animal16.habitat  )   
+ println(" especie: " + animal17.especie +  ", raca: " + animal17.raca + ", idade: " + animal17.idade + ", oque come: " + animal17.dieta + ", onde vive: " +  animal17.habitat  )    
+ println(" especie: " + animal18.especie +  ", raca: " + animal18.raca + ", idade: " + animal18.idade + ", oque come: " + animal18.dieta + ", onde vive: " +  animal18.habitat  )     
+ println(" especie: " + animal19.especie +  ", raca: " + animal19.raca + ", idade: " + animal19.idade + ", oque come: " + animal19.dieta + ", onde vive: " +  animal19.habitat  )    
+ println(" especie: " + animal20.especie +  ", raca: " + animal20.raca + ", idade: " + animal20.idade + ", oque come: " + animal20.dieta + ", onde vive: " +  animal20.habitat  ) 
+     
+     
+} 
+
+       class Animal (var especie: String,
+                     var raca: String,
+                     var idade:Int,
+                     var dieta:String,
+                     var habitat:String)
+
