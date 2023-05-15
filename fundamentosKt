@@ -467,4 +467,37 @@ fun main(){
                      var idade:Int,
                      var dieta:String,
                      var habitat:String)
+//----------------------------------------------------------------------------------------------------------------------------------------------------
+
+fun main() {
+    
+    var animalzin = Animal("cachorro", "Shih-tzu", 9, "chinelo", "pqno")
+    
+    animalzin.comer("chinelo ")
+    
+    var animalzao = Animal("golfinho", "boto", 50, "sardiha", "pqno")
+    
+    animalzao.correr(120.0, "Acre")
+    
+}
+       class Animal (var especie: String,
+                     var raca: String,
+                     var idade:Int,
+                     var dieta:String,
+                     var habitat:String){
+       
+       
+       
+   fun comer(alimento: String){
+       println ("$especie comendo $alimento, yuumm")
+   }
+   
+   fun correr(velocidade: Double, lugar: String){
+       println("$especie correndo em uma velocidade de $velocidade km/h no lugar")
+       
+       
+       
+}
+       }
+
 
